@@ -1,0 +1,45 @@
+########################################################
+# grpcport
+########################################################
+ ginurl: 127.0.0.1
+ ginport: :9605 
+ logurl: 127.0.0.1
+ logport: :9608
+ tokenurl:  127.0.0.1
+ tokenport:  :9607
+ grpcurl:  127.0.0.1
+ grpcport:  :9606
+########################################################
+# Database config
+# mysql
+########################################################
+ mysqlhost:  192.168.2.211
+ mysqlport:  3306
+ mysqluser:   root
+ mysqlpass:  123456
+ mysqldb:  tbet_db
+ mysqlcharset:  utf8
+######################################################
+# redis config
+######################################################
+ redisstatus:  on
+ redisnetwork: tcp
+ redisaddr: 192.168.2.211
+ redisport: 6379
+ redisprefix:  darren_test
+ redispwd:  tbet999
+ redisdb: 0
+ redisbug:  off
+######################################################
+# encode config
+######################################################
+ encodeurl:  http://192.168.2.211:8066/encode.do
+ decodeurl:  http://192.168.2.211:8066/decode.do
+
+###############################
+ webcode:  tbet
+###############################
+ jwtsecret:  rR-JoLQCr5tySTsMCU30EfsRI4ke11Of9ZK49ct_vz3HVDQc4d-B6-IXklrPfp_-
+
+
+ ##############################
